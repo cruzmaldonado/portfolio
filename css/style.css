@@ -1,0 +1,39 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #101010 !important;
+}
+.netlify{
+    background: white;  
+    width: 2rem;
+    
+}
+#name {
+    color:#cfaf8b;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+ #main-header .item{
+    width:30%;
+    cursor: pointer;
+
+ }
+ 
+ 
+ img{
+    height: 97% !important;  
+    overflow:auto !important; 
+ }
+ 
+ @media(min-width: 1199px){
+    .item{
+        padding: 2.8em !important;
+        
+    }
+    #name{
+        width: auto;
+    }
+
+ }
+
